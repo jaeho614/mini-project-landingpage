@@ -2,10 +2,20 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+
+@font-face {
+  font-family: "SpoqaHanSansNeo-Regular";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/SpoqaHanSansNeo-Regular.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: SpoqaHanSansNeo-Regular;
 }
 
 html,
@@ -129,4 +139,13 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+:root {
+  --background-color: #f2e9d8;
+  --text-color: #000000;
+  --text-highlit-color: #d97652;
+  --input-text-color: #767676;
+  --button-color: #d97652;
+  --button-text-color: #ffffff;
 }
