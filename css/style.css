@@ -161,11 +161,10 @@ main {
 /* hodu-items CSS */
 .hodu-items {
   height: 998px;
-  padding: 40px 320px;
+  padding: 0 320px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
 }
 
 .highlight {
@@ -173,15 +172,20 @@ main {
 }
 
 .hodu-items > h3 {
+  height: 60px;
+  margin-top: 40px;
   font-size: 48px;
   font-weight: 700;
+  line-height: 110%;
 }
 
 .hodu-items > p {
+  height: 42px;
   margin-top: 40px;
   font-size: 16px;
   font-weight: 400;
   text-align: center;
+  line-height: 130%;
 }
 
 .item-container {
@@ -226,6 +230,7 @@ main {
   align-items: center;
   justify-content: center;
 }
+
 /* subscribe CSS */
 .hodu-subscribe {
   position: absolute;
@@ -234,10 +239,65 @@ main {
   background-color: #263140;
   width: 1280px;
   height: 200px;
+  padding: 50px 58px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   border-radius: 30px;
   z-index: 10;
 }
 
+.hodu-subscribe h3 {
+  width: 466px;
+  height: 46px;
+  font-size: 36px;
+  font-weight: 700;
+  color: #ffffff;
+  line-height: 110%;
+  letter-spacing: 0.9px;
+}
+
+.hodu-subscribe p {
+  width: 491px;
+  height: 36px;
+  margin-top: 18px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #ffffff;
+  line-height: 125%;
+}
+
+.subscribe-input {
+  position: relative;
+}
+
+.subscribe-input > img {
+  position: absolute;
+  top: 18px;
+  left: 28px;
+}
+
+.subscribe-input > input {
+  width: 530px;
+  height: 60px;
+  padding-left: 68px;
+  font-size: 16px;
+  font-weight: 400;
+  border: none;
+  border-radius: 60px;
+}
+
+.subscribe-input > input::placeholder {
+  color: #767676;
+}
+
+.subscribe-input > button {
+  width: 136px;
+  height: 50px;
+  position: absolute;
+  top: 5px;
+  left: 389px;
+}
 /* subscribe-input CSS */
 .hodu-image-container {
   background-color: aqua;
