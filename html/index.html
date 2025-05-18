@@ -10,122 +10,142 @@
   </head>
   <body>
     <h1 class="sr-only">main page</h1>
-    <div class="spacer">1111</div>
+    <div class="spacer"></div>
     <!-- header -->
     <header>
       <h2 class="sr-only">HODU 헤더</h2>
-      <img src="../asset/images/logo.png" alt="HODU 로고" />
-      <nav class="main-nav">
-        <ul>
-          <li>home</li>
-          <li>about</li>
-          <li>support</li>
-        </ul>
-        <button class="btn">download</button>
-      </nav>
-      <button class="hidden">
-        <img src="../asset/images/menu.svg" alt="메뉴 버튼" />
-      </button>
-      <nav class="side-nav hidden">
-        <button>
-          <img
-            src="../asset/images/arrow-right.svg"
-            alt="사이드 메뉴 종료 버튼"
-          />
+      <div class="header-container">
+        <img src="../asset/images/logo.png" alt="HODU" />
+        <nav class="header-nav">
+          <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>support</li>
+          </ul>
+          <button class="btn">download</button>
+        </nav>
+        <button class="hidden">
+          <img src="../asset/images/menu.svg" alt="메뉴 버튼" />
         </button>
-        <ul>
-          <li>Home</li>
-          <li>About</li>
-          <li>Support</li>
-        </ul>
-        <button class="btn">download</button>
-      </nav>
+        <nav class="side-nav hidden">
+          <button>
+            <img
+              src="../asset/images/arrow-right.svg"
+              alt="사이드 메뉴 종료 버튼"
+            />
+          </button>
+          <ul>
+            <li>home</li>
+            <li>about</li>
+            <li>support</li>
+          </ul>
+          <button class="btn">download</button>
+        </nav>
+      </div>
     </header>
+
     <!-- main -->
     <main>
       <!-- hodu-main -->
       <section class="hodu-main">
         <h2 class="sr-only">HODU 다운로드 및 설명</h2>
-        <div class="main-title">
-          <h3>
-            Lorem Ipsum is simply<br />
-            dummy text of the printing and
-          </h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.<br />Lorem Ipsum has been the industry's standard dummy
-            text ever since the 1500s, when an unknown
-          </p>
-          <button class="btn">Download</button>
+        <div class="main-container">
+          <div class="main-title">
+            <h3>
+              Lorem Ipsum is simply<br />
+              dummy text<br class="hidden" />
+              of the printing and
+            </h3>
+            <p>
+              Lorem Ipsum is simply dummy text<br class="hidden" />
+              of the printing and typesetting industry.<br />Lorem Ipsum has
+              been the industry's<br class="hidden" />
+              standard dummy text ever since the 1500s,<br class="hidden" />
+              when an unknown
+            </p>
+            <button class="btn">download</button>
+          </div>
+          <!-- <div class="img-warpper"> -->
+          <img
+            src="../asset/images/img_cat_png.png"
+            alt="상자 뒤집어 쓴 고양이"
+          />
+          <!-- </div> -->
         </div>
-        <img
-          src="../asset/images/img_cat_png.png"
-          alt="상자 뒤집어 쓴 고양이"
-        />
       </section>
 
       <!-- hodu-post -->
       <section class="hodu-post">
         <h2 class="sr-only">홈페이지 설명</h2>
-        <img src="../asset/images/img_4.png" alt="침대 위에 누워있는 고양이" />
-        <div class="post-title">
-          <h3>
-            Lorem Ipsum is simply dummy text of the printing and dummy text
-          </h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
-          </p>
+        <div class="post-container">
+          <img
+            src="../asset/images/img_4.png"
+            alt="침대 위에 누워있는 고양이"
+          />
+          <div class="post-title">
+            <h3>
+              Lorem Ipsum is simply dummy text of the printing and dummy text
+            </h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing<br
+                class="hidden"
+              />and typesetting industry.
+            </p>
+          </div>
         </div>
       </section>
 
       <!-- hodu-items -->
       <section class="hodu-items">
         <h2 class="sr-only">HODU 제품 사진</h2>
-        <h3 class="highlight">dummy text of the printing and dummy</h3>
-        <p>
-          Lorem Ipsum is simply <span class="highlight">dummy text</span> of the
-          printing and typesetting industry.<br />Lorem Ipsum has been the
-          industry's standard dummy text ever since the 1500s, when an unknown
-        </p>
-        <div class="item-container">
-          <img src="../asset/images/img_1.jpg" alt="HODU 제품 1" />
-          <img src="../asset/images/img_2.jpg" alt="HODU 제품 2" />
-          <img src="../asset/images/img_3.jpg" alt="HODU 제품 3" />
-        </div>
-        <div class="learn-more">
+        <div class="items-container">
+          <h3 class="highlight">dummy text of the printing and dummy</h3>
           <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.<br />Lorem Ipsum has been the industry's standard dummy
-            text ever since the 1500s, when an unknown<br />Ipsum is simply
-            dummy text of the printing and typesetting industry.
+            Lorem Ipsum is simply <span class="highlight">dummy text</span> of
+            the printing and typesetting industry.<br />Lorem Ipsum has been the
+            industry's standard dummy text ever since the 1500s, when an unknown
           </p>
-          <a class="btn" href="#">learn more</a>
+          <div class="item-container">
+            <img src="../asset/images/img_1.jpg" alt="HODU 제품 1" />
+            <img src="../asset/images/img_2.jpg" alt="HODU 제품 2" />
+            <img src="../asset/images/img_3.jpg" alt="HODU 제품 3" />
+          </div>
+          <div class="learn-more">
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.<br />Lorem Ipsum has been the industry's standard dummy
+              text ever since the 1500s, when an unknown<br />Ipsum is simply
+              dummy text of the printing and typesetting industry.
+            </p>
+            <a class="btn" href="#">learn more</a>
+          </div>
         </div>
       </section>
-
       <!-- hodu-subscribe -->
       <section class="hodu-subscribe">
         <h2 class="sr-only">blog 게시물 구독</h2>
-        <div>
-          <h3>Subscribe to our Blog post</h3>
-          <p>
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.<br />Lorem Ipsum has been the industry's standard dummy
-            text
-          </p>
-        </div>
-        <div class="subscribe-input">
-          <img src="../asset/images/mail.svg" alt="mail 아이콘" />
-          <input type="text" placeholder="Enter your e-mail address" />
-          <button class="btn">subscribe</button>
+        <div class="subscribe-container">
+          <div>
+            <h3>Subscribe to our Blog post</h3>
+            <p>
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry.<br />Lorem Ipsum has been the industry's standard dummy
+              text
+            </p>
+          </div>
+          <div class="subscribe-input">
+            <img src="../asset/images/mail.svg" alt="mail 아이콘" />
+            <input type="text" placeholder="Enter your e-mail address" />
+            <button class="btn">subscribe</button>
+          </div>
         </div>
       </section>
-
       <!-- hodu-image-container -->
       <section class="hodu-image-container">
+        <h2 class="sr-only">이미지 구역</h2>
         <img src="../asset/images/img_5.png" alt="고양이 배경" />
       </section>
+
       <!-- scroll-top-btn -->
       <button class="scroll-top-btn">
         <img src="../asset/images/Vector.png" alt="화면상단 이동버튼" />
@@ -134,35 +154,39 @@
 
     <!-- footer -->
     <footer>
-      <img src="../asset/images/logo.png" alt="HODU 로고" />
-      <nav>
-        <ul class="sns-icons">
-          <li>
-            <a href="#"><img src="../asset/images/icon-blog.png" alt="" /></a>
-          </li>
-          <li>
-            <a href="#"><img src="../asset/images/icon-insta.png" alt="" /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="../asset/images/icon-facebook.png" alt=""
-            /></a>
-          </li>
-          <li>
-            <a href="#"
-              ><img src="../asset/images/icon-youtube.png" alt=""
-            /></a>
-          </li>
-        </ul>
-      </nav>
-      <nav class="hidden">
-        <ul class="footer-menu">
-          <li>about</li>
-          <li>blog</li>
-          <li>support</li>
-          <li>terms of use</li>
-        </ul>
-      </nav>
+      <div class="footer-container">
+        <img src="../asset/images/logo.png" alt="HODU 로고" />
+        <nav>
+          <ul class="sns-icons">
+            <li>
+              <a href="#"><img src="../asset/images/icon-blog.png" alt="" /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="../asset/images/icon-insta.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="../asset/images/icon-facebook.png" alt=""
+              /></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="../asset/images/icon-youtube.png" alt=""
+              /></a>
+            </li>
+          </ul>
+        </nav>
+        <nav class="hidden">
+          <ul class="footer-menu">
+            <li>about</li>
+            <li>blog</li>
+            <li>support</li>
+            <li>terms of use</li>
+          </ul>
+        </nav>
+      </div>
     </footer>
   </body>
 </html>
